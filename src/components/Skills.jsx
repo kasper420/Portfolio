@@ -10,6 +10,9 @@ import Tailwind from '../assets/tailwind.png';
 import SQL from '../assets/sql.png';
 import Python from '../assets/python.png';
 import Java from '../assets/java.png';
+import Jenkins from '../assets/Jenkins.png'
+import Grafana from '../assets/Grafana.png'
+import Influx from '../assets/Influx.png'
 
 const Skills = () => {
   return (
@@ -19,7 +22,7 @@ const Skills = () => {
               <p className='text-4xl font-bold inline border-b-4 border-red-600'>Skills</p>
               <p className='py-4'>These are the Programs I can work with:</p>
           </div>
-          <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
+          <div className='w-full grid grid-cols-3 sm:grid-cols-5 gap-4 text-center py-8'>
               
               <div className='shadow-md bg-black shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
@@ -61,8 +64,18 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
                   <p className='my-4'>NODE JS</p>
               </div>
-             
-              
+              <div className='shadow-md bg-black shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Jenkins} alt="HTML icon" />
+                  <p className='my-4'>Jenkins</p>
+              </div>
+              <div className='shadow-md bg-black shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Grafana} alt="HTML icon" />
+                  <p className='my-4'>Grafana</p>
+              </div>
+              <div className='shadow-md bg-black shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Influx} alt="HTML icon" />
+                  <p className='my-4'>InfluxDB</p>
+              </div>
           </div>
       </div>
     </div>

@@ -42,7 +42,7 @@ const About = () => {
                 Personal Info:
               </p>
               <p className='text-center mt-5 text-black font-bold'>Im Kasper,
-                a 20 years old student at Hogent studying Computer Science.
+                a 21 year old student at Hogent studying Computer Science.
                 I love working in teams and learn very quickly, i always try to motivate myself and go for every opportunity.
                 My passion is programming and i never stop challenging myself.
               </p>

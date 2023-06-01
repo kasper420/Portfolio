@@ -11,7 +11,7 @@ const Contact = () => {
                 <br /> <br /> <br />
                 <p className='text-red-500 font-bold py-2'>email: </p><p className='text-gray-300'>kasper.vandekerckhove@hotmail.be</p>
                 <br />
-                <p className='text-red-500 font-bold py-2'>sociale media: </p>
+                <p className='text-red-500 font-bold py-2'>social media: </p>
                 <br />
                 <div className='grid grid-cols-3'>
                 <a className='justify-self-center self-center' href="https://www.facebook.com/profile.php?id=100008917507084"><AiFillFacebook className='bg-red-600 w-8 h-8'/></a>
